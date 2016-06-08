@@ -1,0 +1,15 @@
+{
+  "name": "elastic-cli",
+  "version": "1.0.0",
+  "description": "Manage creating and deleting Elasticsearch indices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabiën Tesselaar",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "inquirer": "^1.0.3"
+  }
+}
