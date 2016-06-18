@@ -10,6 +10,12 @@
   "license": "MIT",
   "dependencies": {
     "elasticsearch": "^11.0.1",
-    "inquirer": "^1.0.3"
+    "inquirer": "^1.0.3",
+    "minimist": "^1.2.0",
+    "through2": "^2.0.1"
+  },
+  "bin": {
+    "create": "./create.js",
+    "delete": "./delete.js"
   }
 }

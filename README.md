@@ -1,6 +1,20 @@
 Elastic cli
 ===========
 
-(TODO) To create an index: `node add.js --i [index-name] < mapping.json`
+#### Creating indices
 
-To delete indices: `node delete.js`
+```
+node create.js --index [index-name] < mapping.json`
+```
+
+Creates an elasticsearch index.
+
+
+#### Deleting indices
+
+```
+node delete.js
+```
+
+A list of available indices is displayed, navigate and select indinces with [space]. Finally, press [enter] if your done.
+

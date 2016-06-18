@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-'use strict';
-
-var __package__ = require("./package.json");
-
 try {
     var config = require("./local_config");
 }
